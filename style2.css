@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav {
+    height: 80px;
+    background-color:  #232323;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+a.logo {
+    width: auto;
+    height: auto;
+}
+.imglogo {
+    width: 250px;
+    height: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+}
+
+
+.filme .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    background: #DB202C;
+    }
+
+.filme .titulo {
+    justify-content: center;
+    background-color: #DB202C;
+    color: black;
+    display: flex;
+    padding: 2rem;
+}
+.filme .box-container .box {
+    flex: 1 1 30rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0,.1);
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgba(0, 0, 0, .1);
+    position: relative;
+    background: #232323;
+}
+
+.filme .box-container .box .image {
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    overflow: hidden;
+}
+
+.filme .box-container .box .image img {
+    height: 25rem;
+}
+
+.filme .box-container .box:hover .image img {
+    transform: scale(1.1);
+}
+
+.filme .box-container .box .image .icons{
+    position: absolute;
+    bottom:-7rem; left:0; right:0;
+    display: flex;
+    justify-content: center;
+    }
+    .filme .box-container .box:hover .image .icons {
+        bottom: 0;
+    }
+
+    .filme .box-container .box .image .icons a {
+        text-decoration: none;
+        height: 2rem;
+        line-height: 2rem;
+        font-size: 2rem;
+        width: 100%;
+        background:#552a2f;
+        color: white;
+    } 
+
+    .filme .box-container .box .conteudo{
+        padding:2rem;
+        text-align: center;
+        }
+    .filme .box-container .box .conteudo h3{
+        font-size: 2.5rem;
+        color: #ffffff;
+    }
+    .filme .box-container .box .conteudo .nota{
+        font-size: 2.5rem;
+        color: #DB202C;
+        font-weight: bolder;
+        padding-top: 1rem;
+    }
+    .filme .box-container .box .conteudo .nota{
+        font-size: 2.5rem;
+        color: #DB202C;
+        font-weight: bolder;
+        padding-top: 1rem;
+    }
